@@ -82,6 +82,7 @@ Vertical and Horizontal prediction in H.264 Intra is available for all macrobloc
 To keep this simple, let's just go over Vertical/Horizontal for now.
 
 Example pattern for Vertical:
+
 | 51   | 33 | 25 | 19 | 74 |
 | --   | ---- | ---- | ---- | ---- |
 | 16 | 33 | 25 | 19 | 74 |
