@@ -72,7 +72,7 @@ It's probably trying to run some Intel SMX x86 instruction, perhaps one of those
 
 But again, SYSTEM rights don't help. These instructions require privileges beyond SYSTEM.
 
-And what about smss.exe? Well, I saved this one for last, because it's catastrophic. When I tried running smss.exe in User mode... I literally got a Blue Screen of Death (BSOD), stop code CRITICAL_PROCESS_DIED. Okay, WHAT??? This is in USER mode, WITHOUT ADMIN RIGHTS! How is that even possible? I thought that in User mode, you can't cause a BSOD, because you're not supposed to have access to low-level system features.
+And what about smss.exe? Well, I saved this one for last, because it's catastrophic. When I tried running smss.exe in User mode... I literally got a Blue Screen of Death (BSOD), stop code CRITICAL_PROCESS_DIED. Huh? This is in user mode, without admin rights! How is that even possible? I thought that in User mode, you can't cause a BSOD, because you're not supposed to have access to low-level system features.
 
 Okay, beside that, let's keep Native mode going further.
 In Native Mode, you have full control over everything. Every single byte on your storage, every single byte in RAM, every process state, and nearly every single CPU instruction. This is also why
